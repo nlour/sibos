@@ -1,0 +1,153 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-width : 320px) 
+and (max-width : 480px) {
+
+	/* disable webkit text size adjust (for iPhone) */
+	html {
+		-webkit-text-size-adjust: none;
+	}
+	#header {
+		height:101px; 
+		border-top: none;
+		background-image:url(http://www.bottomline.com/sundaybeforesibos/v1/images/header_bkg_mobile.png);
+	}
+	.character {
+		width:38px;
+		top:18px;
+		left:18px;
+		margin-left:0;
+	}
+	.sbs-title {
+		top:18px;
+		left:71px; 
+		margin-left: 0;
+		font-size: 1.6em;
+	}
+	.date-location {
+		top:37px;
+		left:71px;
+		margin-left: 0;
+		font-size: 1.3em;
+	}
+	img.bt-logo {
+		display:none;
+	}
+	.navigation, .mobile-only {
+		top: 71px;
+		margin-top: 0;
+		left:18px; /* 117 + 64.5 + 18 */
+	}
+	.navigation li, .mobile-only li {
+		display:inline;
+	}
+	.navigation li a, .mobile-only li a {
+		display:inline;
+		padding: 0 0 2px 0;
+		margin: 0 15px;
+		font-size: 1.2em;
+		color: #000;
+		font-weight:bold;
+		border-bottom: none;
+	}
+	.navigation li a:first-child {
+		margin-left: 0;
+	}
+	.navigation li.desktop-only { 
+		display: none;
+	}
+	#slide1, #slide2, #slide3, #slide4 {
+		color:#fff;
+	}
+	.sphere-text1, .sphere-text2, .sphere-text3, .wrapper-pardot {
+		top:137px;
+		bottom:0;
+		left: 18px;
+		margin-left: 0;
+		/* padding-right:71px; */
+		text-align:left;
+	}
+	br {
+		display:none;
+	}
+	.wrapper img {
+		display:none !important;
+	}
+	
+}
+
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px)
+and (max-width : 480px) {
+
+	.slide {
+		height:287px;
+	}
+	.sphere-text1, .sphere-text2, .sphere-text3, .wrapper-pardot {
+		width:426px;
+	}
+	#slide1, #slide2, #slide3, #slide4 {
+		width: 480px;
+	}
+	#slide4 {
+		height: 1150px;
+	}
+	#slide2 .wrapper, #slide3 .wrapper {
+		width: 480px;
+	}
+
+}
+
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+	
+	.slide {
+		height:423px;
+	}
+	.sphere-text1, .sphere-text2, .sphere-text3, .wrapper-pardot {
+		width:266px;
+	}
+	#slide1, #slide2, #slide3, #slide4 {
+		width: 320px;
+	}
+	#slide4 {
+		height: 1250px;
+	}
+	#slide2 .wrapper, #slide3 .wrapper {
+		width: 320px;
+	}
+	#slide2 .wrapper, #slide3 .wrapper {
+		float:left;
+		background-image: url(http://www.bottomline.com/sundaybeforesibos/v1/images/mobile_castle_clouds.png);
+		background-repeat: no-repeat;
+		background-position: right bottom;
+	}
+	
+	/*
+	CUSTOM PARDOT STYLES
+	*/
+	form.form p label {
+		width: 105px !important;
+	}
+	form.form span.value {	
+		margin-left: 124px !important;
+	}
+	form.form input.text {
+		width: 105px !important;
+	}
+	form.form textarea.standard {
+		width: 266px !important;
+	}
+	input[type="checkbox"], input[type="radio"] {
+		margin-left: 0 !important;
+	}
+
+}
+
+
+
+
